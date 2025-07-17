@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JasPer Bazer</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+    body {
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #1e293b;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: #334155;
+      display: flex;
+      justify-content: space-around;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      background: #e2e8f0;
+      padding: 50px;
+      text-align: center;
+    }
+    .hero h2 {
+      font-size: 2rem;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .product-card {
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 15px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .product-card img {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+    .product-card h3 {
+      margin: 10px 0;
+    }
+    .product-card p {
+      color: #555;
+    }
+    .contact {
+      background: #e2e8f0;
+      padding: 30px;
+      text-align: center;
+    }
+    footer {
+      background: #1e293b;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>JasPer Bazer</h1>
+    <p>আপনার পছন্দের অনলাইন বাজার</p>
+  </header>
+
+  <nav>
+    <a href="#">হোম</a>
+    <a href="#products">পণ্য</a>
+    <a href="#contact">যোগাযোগ</a>
+  </nav>
+
+  <section class="hero">
+    <h2>সেরা দামে সেরা পণ্য</h2>
+    <p>ঘরে বসেই অর্ডার করুন</p>
+  </section>
+
+  <section class="products" id="products">
+    <div class="product-card">
+      <img src="https://via.placeholder.com/200" alt="Product 1">
+      <h3>পণ্য ১</h3>
+      <p>৳ ৫৫০</p>
+    </div>
+    <div class="product-card">
+      <img src="https://via.placeholder.com/200" alt="Product 2">
+      <h3>পণ্য ২</h3>
+      <p>৳ ৭৯০</p>
+    </div>
+    <div class="product-card">
+      <img src="https://via.placeholder.com/200" alt="Product 3">
+      <h3>পণ্য ৩</h3>
+      <p>৳ ৪২০</p>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>যোগাযোগ করুন</h2>
+    <p>📞 018XX-XXXXXX</p>
+    <p>📧 jasper@bazer.com</p>
+    <p><a href="https://wa.me/88018XXXXXXXX" target="_blank">WhatsApp Order করুন</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 JasPer Bazer. সর্বস্বত্ব সংরক্ষিত।</p>
+  </footer>
+</body>
+</html>
